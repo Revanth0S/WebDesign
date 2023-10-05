@@ -8,14 +8,38 @@
 		<title>Separating Content with breaks & Styling Text with CSS</title>
 
 		<!-- This CSS and font is purely for presentational purposes. -->
-		<link rel="stylesheet" href="/css/presentation.css" />
+		<link rel="stylesheet" href="../css/presentation.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
 
 		<style>
-			
+			.card {
+				color: #132a3b;
 
+				/* font-family: 'poppins', sans-serif;
+				font-size: 18px;
+				line-height: 1.55; */
+				font: 18px/1.55 'poppins', sans-serif;
+			}
+
+			.card h1 {
+				font-weight: 900;
+			}
+
+			.card p span {
+				color: rgba(19, 42, 59, 0.842);
+				font-weight: 600;
+			}
+
+			p a {
+				text-decoration: none;
+				color: rgb(246, 106, 17);
+			}
+
+			p a:hover {
+				color: #132a3b;
+			}
 		</style>
 	</head>
 
@@ -23,7 +47,25 @@
 		<section class="learn">
 			<!-- Practice area start -->
 
-			
+			<div class="card">
+				<img src="../images/example/envelopes-bulk.svg" alt="text">
+				<h1>Let's get in touch</h1>
+				<p>
+					9 Augusta street <br>
+					Fair Lawn,NJ 07410
+				</p>
+				<hr>
+				<p>
+					<span>Email</span> <br>
+					<a href="mailto:chuck@roundhouse.com">chuck@roundhouse.com</a>
+				</p>
+				<p>
+					<span>Phone</span> <br>
+					<a href="tel:+1-202-555-0125">+1-202-555-0125</a>
+				</p>
+			</div>
+
+
 
 			<!-- Practice area end -->
 		</section>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Div Element and CSS units</title>
 
-    <link rel="stylesheet" href="/css/presentation.css">
+    <link rel="stylesheet" href="../css/presentation.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,7 +15,7 @@
 
     <style>
         /* styling for demo purpose */
-        section>div {
+        /* section>div {
             background-color: rgb(179, 215, 215);
             display: flex;
             margin-bottom: 1rem;
@@ -23,9 +23,29 @@
 
         div div {
             background-color: rgb(142, 181, 181);
-        }
+        } */
 
         /*styling for the divs*/
+        html {
+            font-size: 18px;
+        }
+        
+        .card {
+            color: #fff;
+            width: 350px;
+        }
+
+        #total {
+            background-color: #132a3b;
+        }
+
+        #sale {
+            background-color: #1f5475;
+        }
+
+        #rental {
+            background-color: #f66a11;
+        }
     </style>
 </head>
 
@@ -33,8 +53,33 @@
 
     <!-- pratice area -->
     <section class="learn">
+        
+        <div class="card" id="total">
+            
+            <img src="../images/example/house-chimney.svg" alt="House chimney" width="20px">
+            <div>
+                510
+                properties in total
+            </div>
+                
+        </div>
 
+        <div class="card" id="sale">
+            <img src="../images/example/cart-plus.svg" alt="Cart plus" width="20px">
+            <div>
+                253
+                properties for sale
+            </div>
+        </div>
 
+        <div class="card" id="rental">
+            <img src="../images/example/user-check.svg" alt="User check" width="20px">
+            <div>
+                257
+                properties for rental
+            </div>
+        </div>
+        
 
     </section>
 

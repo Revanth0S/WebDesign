@@ -17,8 +17,92 @@
 		<section class="learn">
 			<!-- Practice area start -->
 
-			
+		<h1>your order</h1>
 
+		<form action="" method="get" id="order-form">
+
+			<div>
+				<div>
+					<label for="order-name">name</label>
+					<input type="text" name="order-name" id="order-name" placeholder="your full name" autofocus>
+				</div>
+				<div>
+					<label for="order-email">email address</label>
+					<input type="email" name="order-email" id="order-email" value="revanthaladeen7@gmail.com" disabled>
+				</div>
+				<div>
+					<label for="order-address">Address</label>
+					<input type="text" name="order-address" id="order-address">
+					<input type="text" name="order-address2" id="order-address2">
+				</div>
+				<div>
+					<label for="order-city">City</label>
+					<input type="text" name="order-city" id="order-city">
+				</div>
+				<div>
+					<label for="order-state">State</label>
+					<select name="order-state" id="order-state">
+						<option value="Tamilnadu">Tamilnadu</option>
+						<option value="Andhra Pradesh">Andhra Pradesh</option>
+						<option value="Kerala">Kerala</option>
+						<option value="Karnataka">Karnataka</option>
+						<option value="Telungana">Telungana</option>
+				</select>
+				</div>
+				<div>
+					<label for="order-zip">Zip</label>
+					<input type="text" name="order-zip" id="order-zip">
+				</div>
+			</div>
+			<div>
+				<label for="">What colour samples should we send you?</label>
+				<div>
+					<label for="sample-white">
+						<input type="checkbox" name="sample-white" id="sample-white" value="White" disabled>White
+					</label>
+					<label for="sample-megenda">
+						<input type="checkbox" name="sample-megenda" id="sample-megenda" value="megenda">megenda
+					</label>
+					<label for="sample-charcoal">
+						<input type="checkbox" name="sample-charcoal" id="sample-charcoal" value="Charcoal">Charcoal
+					</label>
+					<label for="sample-burgandy">
+						<input type="checkbox" name="sample-burgandy" id="sample-burgandy" value="Burgandy">Burgandy
+					</label>
+					<label for="sample-chocolate">
+						<input type="checkbox" name="sample-chocolate" id="sample-chocolate" value="Chocolate">Chocolate
+					</label>
+				</div>
+			</div>
+			<div>
+					<label for="">How large is your team?</label>
+				<div>
+					<label for="team-small">
+						<input type="radio" name="team-size" id="team-small" value="1-5 people">1-5 people
+					</label>
+					<label for="team-medium">
+						<input type="radio" name="team-size" id="team-madium" value="6-10 people" checked>6-10 people
+					</label>
+					<label for="team-large">
+						<input type="radio" name="team-size" id="team-large" value="10+ people">10+ people
+					</label>
+				</div>
+			</div>
+			
+			<div>
+				<label for="comments">Comments</label>
+				<textarea name="comments" id="comments" cols="30" rows="10" placeholder="Please type here"></textarea>
+			</div>
+			<div>
+				<label for="signup">
+					<input type="checkbox" name="signup" id="signup">Sign up
+				</label>
+				<!-- <button>order</button> -->
+				<!-- <input type="button" value="plachéo holder"> -->
+				<!-- <input type="submit" value="plachéo holder"> -->
+			</div>
+		</form>
+		<button form="order-form">Place order</button>
 			<!-- Practice area end -->
 		</section>
 

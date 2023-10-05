@@ -14,6 +14,30 @@
 
 		<style>
 			
+			.wrapper {
+				/* it's for demo purposes */
+				display: flex;
+				gap: 2rem;
+			}
+
+			.widget {
+				width: 100%;
+				/* width: auto; */
+				min-width: 250px;
+				max-width: 350px;
+			}
+			.widget .main-icon {
+				width: 5rem;
+			}
+
+			.widget p img {
+				width: 1.5rem;
+			}
+
+			.widget a img {
+				/* width: 1rem; */
+				height: 1rem;
+			}
 			
 		</style>
 	</head>
@@ -21,7 +45,31 @@
 		<section class="learn">
 			<!-- Practice area start -->
 
-			
+			<h1>dashboard</h1>
+
+			<div class="wrapper">
+				<div class="widget">
+					<img src="../images/example/icon-money.svg" alt="icon-money" class="main-icon">
+					<h2>$4,502</h2>
+					<p>Earned this month</p>
+					<p><img src="../images/example/icon-arrow-green.svg" alt="icon-arrow-green">+6.05% than last month</p>
+					<a href="">Earnings <img src="../images/example/icon-arrow-right.svg" alt="icon-arrow-right"></a>
+				</div>
+				<div class="widget">
+					<img src="../images/example/icon-sales.svg" alt="icon-sales" class="main-icon">
+					<h2>22</h2>
+					<p>New sales</p>
+					<p><img src="../images/example/icon-arrow-green.svg" alt="icon-arrow-green">+16.64% than last month</p>
+					<a href="">sales <img src="../images/example/icon-arrow-right.svg" alt="icon-arrow-right"></a>
+				</div>
+				<div class="widget">
+					<img src="../images/example/icon-chat.svg" alt="icon-chat" class="main-icon">
+					<h2>7</h2>
+					<p>New Comments</p>
+					<p><img src="../images/example/icon-arrow-red.svg" alt="icon-arrow-green">-19% than last month</p>
+					<a href="">Comments <img src="../images/example/icon-arrow-right.svg" alt="icon-arrow-right"></a>
+				</div>
+			</div>
 
 			<!-- Practice area end -->
 		</section>

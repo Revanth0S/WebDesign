@@ -15,17 +15,28 @@
 		<style>
 			
 			.wrapper {
+<<<<<<< HEAD
 				/* it's for demo purposes */
 				display: flex;
 				gap: 2rem;
 			}
 
 			.widget {
+=======
+				/* Don't worry about what flex means. */
+				/* It's simply here for demo purposes. */
+				display: flex;
+				gap: 2rem;
+			}
+			
+			div.widget {
+>>>>>>> cd7847dd8b77aa036a67fe71653f97a1f2a27e5c
 				width: 100%;
 				/* width: auto; */
 				min-width: 250px;
 				max-width: 350px;
 			}
+<<<<<<< HEAD
 			.widget .main-icon {
 				width: 5rem;
 			}
@@ -38,6 +49,27 @@
 				/* width: 1rem; */
 				height: 1rem;
 			}
+=======
+
+			div.widget .main-icon {
+				width: 5rem;
+			}
+
+			div.widget p img {
+				width: 1.8rem;
+			}
+
+			div.widget a img {
+				width: 1rem;
+			}
+
+			/* a tag is a inline level elemtent */
+			/* div.widget a {
+				display: inline-block;
+				height: 10rem;
+				width: 5rem;
+			} */
+>>>>>>> cd7847dd8b77aa036a67fe71653f97a1f2a27e5c
 			
 		</style>
 	</head>
@@ -45,6 +77,7 @@
 		<section class="learn">
 			<!-- Practice area start -->
 
+<<<<<<< HEAD
 			<h1>dashboard</h1>
 
 			<div class="wrapper">
@@ -68,6 +101,31 @@
 					<p>New Comments</p>
 					<p><img src="../images/example/icon-arrow-red.svg" alt="icon-arrow-green">-19% than last month</p>
 					<a href="">Comments <img src="../images/example/icon-arrow-right.svg" alt="icon-arrow-right"></a>
+=======
+			<h1>Dashboard</h1>
+
+			<div class="wrapper">
+				<div class="widget">
+					<img src="../images/example/icon-money.svg" alt="Icon" class="main-icon">
+					<h2>$4,502</h2>
+					<p>Earned this month</p>
+					<p><img src="../images/example/icon-arrow-green.svg" alt="Arrow green">+6.05% <span>than last month</span></p>
+					<a href="#">Earnings <img src="../images/example/icon-arrow-right.svg" alt="Arrow right"></a>
+				</div>
+				<div class="widget">
+					<img src="../images/example/icon-sales.svg" alt="Icon" class="main-icon">
+					<h2>22</h2>
+					<p>New Sales</p>
+					<p><img src="../images/example/icon-arrow-green.svg" alt="Arrow green">+16.64% <span>than last month</span></p>
+					<a href="#">Sales <img src="../images/example/icon-arrow-right.svg" alt="Arrow right"></a>
+				</div>
+				<div class="widget">
+					<img src="../images/example/icon-chat.svg" alt="Icon" class="main-icon"> 
+					<h2>7</h2>
+					<p>New comments</p>
+					<p><img src="../images/example/icon-arrow-red.svg" alt="Arrow red"> -19% <span>than last month</span></p>
+					<a href="#">Comments <img src="../images/example/icon-arrow-right.svg" alt="Arrow right"></a>
+>>>>>>> cd7847dd8b77aa036a67fe71653f97a1f2a27e5c
 				</div>
 			</div>
 

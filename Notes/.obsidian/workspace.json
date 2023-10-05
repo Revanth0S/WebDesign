@@ -15,6 +15,21 @@
               "state": {
                 "file": "CSS.md",
                 "mode": "preview",
+<<<<<<< HEAD
+=======
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20c86c1182082d28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVASCRIPT.md",
+                "mode": "source",
+>>>>>>> cd7847dd8b77aa036a67fe71653f97a1f2a27e5c
                 "source": false
               }
             }
@@ -160,10 +175,17 @@
   },
   "active": "188cfefc785ec463",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "HTML.md",
     "CSS.md",
     "Intro to HTML & CSS.md",
     "JAVASCRIPT.md",
+=======
+    "JAVASCRIPT.md",
+    "CSS.md",
+    "HTML.md",
+    "Intro to HTML & CSS.md",
+>>>>>>> cd7847dd8b77aa036a67fe71653f97a1f2a27e5c
     "Projects.md",
     "images/brendanEich.jpg.crdownload",
     "images/brendanEich.jpg",

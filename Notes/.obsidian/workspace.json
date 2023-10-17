@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS.md",
+                "file": "JAVASCRIPT.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7684527718630f26",
@@ -86,8 +85,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS.md",
-                "collapseAll": false,
+                "file": "JAVASCRIPT.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS.md",
+                "file": "JAVASCRIPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,15 +135,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS.md"
+                "file": "JAVASCRIPT.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,6 +161,11 @@
   "lastOpenFiles": [
     "Intro to HTML & CSS.md",
     "HTML.md",
-    "CSS.md"
+    "CSS.md",
+    "images/blockElement.png",
+    "images/Attribute.png",
+    "images/Ano_Att.png",
+    "JAVASCRIPT.md",
+    "Projects.md"
   ]
 }

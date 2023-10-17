@@ -24,7 +24,6 @@ body {
     border: 1px solid rgba(54, 65, 69, 0.3);
     border-radius: 4px;
     padding: 2rem;
-    /* position: relative; */
 }
 
 .set h1 {
@@ -59,9 +58,14 @@ body {
 .static .highlight {
     background-color: var(--color-1);
     position: static;
+<<<<<<< HEAD
     /* top: 5rem;
     left: 2rem; */
 
+=======
+    top: 0;
+    left: 2rem;
+>>>>>>> aa3d3a4e76f25f923d97c444fdf8745e88fc7237
 }
 
 .relative {
@@ -70,9 +74,15 @@ body {
 
 .relative .highlight {
     background-color: var(--color-2);
+<<<<<<< HEAD
     /* position: relative;
     top: 2rem;
     left: 1rem; */
+=======
+    position: relative;
+    top: 2rem;
+    left: 5rem;
+>>>>>>> aa3d3a4e76f25f923d97c444fdf8745e88fc7237
 }
 
 .absolute {
@@ -81,9 +91,15 @@ body {
 
 .absolute .highlight {
     background-color: var(--color-3);
+<<<<<<< HEAD
     /* position: absolute;
     top: 2rem;
     left: 1rem; */
+=======
+    position: absolute;
+    top: 0rem;
+    right: 0;
+>>>>>>> aa3d3a4e76f25f923d97c444fdf8745e88fc7237
 }
 
 .fixed {
@@ -92,9 +108,15 @@ body {
 
 .fixed .highlight {
     background-color: var(--color-4);
+<<<<<<< HEAD
      /* position: fixed;
     top: 37rem;
     right: 37rem; */
+=======
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+>>>>>>> aa3d3a4e76f25f923d97c444fdf8745e88fc7237
 }
 
 .sticky {
@@ -103,8 +125,13 @@ body {
 }
 
 .sticky ul {
+<<<<<<< HEAD
     /* position: sticky;
     top: 1rem; */
+=======
+    position: sticky;
+    top: 1rem;
+>>>>>>> aa3d3a4e76f25f923d97c444fdf8745e88fc7237
 }
 
 .sticky ul li {

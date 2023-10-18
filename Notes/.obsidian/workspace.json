@@ -26,6 +26,21 @@
                 "source": false
               }
             }
+<<<<<<< HEAD
+=======
+          },
+          {
+            "id": "20c86c1182082d28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVASCRIPT.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+>>>>>>> f88bc4807feb68248368472dc797217065815e90
           }
         ],
         "currentTab": 1
@@ -129,7 +144,21 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "eb04fda459228989",
+=======
+            "id": "387b1ccf20dc7d64",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "JAVASCRIPT.md"
+              }
+            }
+          },
+          {
+            "id": "2ae884f374453d5d",
+>>>>>>> f88bc4807feb68248368472dc797217065815e90
             "type": "leaf",
             "state": {
               "type": "all-properties",

@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-// to declare a varibale
-let name="Revanth";
-
-// Case sensitive
-let age="Age";
-
-// can't use reserved keywords
-
-// var var
-=======
 /**
  * Global scope
  * local scope
@@ -28,7 +17,6 @@ car_model = 'Toyota Supra'; // -2
 let speedOfcar = 230; // -3
 
 // decalaring variable
->>>>>>> f88bc4807feb68248368472dc797217065815e90
 
 let brand_name = 'Toyato';
 

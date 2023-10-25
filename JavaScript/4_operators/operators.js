@@ -105,3 +105,8 @@ let voting_age = 18;
 let user_age = 26;
 let result = (user_age > voting_age) ? 'eligible' : 'not eligible';
 console.log(`user is ${result}`);
+
+let number = 5;
+let greater_number = '5';
+let Answer = (greater_number === number) ? 'Equal' : 'not Equal';
+console.log(Answer);

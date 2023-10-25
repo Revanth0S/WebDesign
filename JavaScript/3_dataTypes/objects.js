@@ -17,3 +17,4 @@ let gasesousPlanet = {
         position: 8,
     }
 }
+

@@ -17,10 +17,13 @@
 *   function with return type and without argument
 */
 
-// function decalration
-// function add(a, b) {
-//     print(a + b)
-// }
+// function declaration
+let print = (value) => {
+    console.log(value);
+}
+function add(a, b) {
+    print(a + b)
+}
 
 // function sub(a, b) {
 //     return a - b;
@@ -58,8 +61,6 @@ modulo(3, 1);
 
 // arrow function
 
-let print = (value) => {
-    console.log(value);
-}
+
 
 print(45)

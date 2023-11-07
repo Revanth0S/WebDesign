@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 /* reset */
 
->>>>>>> e59227b0596cbdf5c3f2e6a95b7536989b2f8c3e
 * {
     box-sizing: border-box;
     padding: 0;
@@ -29,19 +26,11 @@ h1 {
     letter-spacing: -2px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> e59227b0596cbdf5c3f2e6a95b7536989b2f8c3e
 h2 {
     font-size: 1.75rem;
     font-weight: 300;
     letter-spacing: -1px;
-<<<<<<< HEAD
-    color: rgba(60,50,71, 0.8);
-=======
     color: rgba(60, 58, 71, 0.817);
->>>>>>> e59227b0596cbdf5c3f2e6a95b7536989b2f8c3e
 }
 
 h3 {
@@ -56,19 +45,11 @@ h3.large {
 }
 
 .dark h3 {
-<<<<<<< HEAD
-    color: rgb(252,252,252);
-}
-
-h4 {
-    font-size: 2rem;
-=======
     color: rgb(252, 252, 252);
 }
 
 h4 {
     font-size: 1rem;
->>>>>>> e59227b0596cbdf5c3f2e6a95b7536989b2f8c3e
     font-weight: 700;
     margin-bottom: 1rem;
 }
@@ -84,11 +65,7 @@ p.section-intro {
 }
 
 .dark p.section-intro {
-<<<<<<< HEAD
-    color: rgba(252, 252, 252, 0.833);
-=======
     color: rgba(252, 252, 252, 0.804);
->>>>>>> e59227b0596cbdf5c3f2e6a95b7536989b2f8c3e
 }
 
 p.number {
@@ -121,13 +98,10 @@ form button {
     line-height: 1.55;
 }
 
-<<<<<<< HEAD
-=======
 /* layouts */
 
 /* container */
 
->>>>>>> e59227b0596cbdf5c3f2e6a95b7536989b2f8c3e
 div.container {
     width: 85%;
     margin: 0 auto;
@@ -138,25 +112,17 @@ div.container.small {
     max-width: 35rem;
 }
 
-<<<<<<< HEAD
-#main-header,
-section {
-    padding: 13rem 0;
-=======
 /* header */
 
 #main-header,
 section {
     padding: 10rem 0;
->>>>>>> e59227b0596cbdf5c3f2e6a95b7536989b2f8c3e
     text-align: center;
 }
 
 #main-header h1 {
     margin: 6rem 0 1rem;
 }
-<<<<<<< HEAD
-=======
 
 #main-header h2 {
     margin-bottom: 6rem;
@@ -361,4 +327,3 @@ footer #back-to-top {
         gap: 2rem;
     }
 }
->>>>>>> e59227b0596cbdf5c3f2e6a95b7536989b2f8c3e
